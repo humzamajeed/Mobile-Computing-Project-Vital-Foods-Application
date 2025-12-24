@@ -215,6 +215,56 @@ This project implements **Clean Architecture** with the following key principles
 - 🎨 **Responsive Design** - Adaptive UI for different screen sizes
 - 🔒 **Secure Storage** - Encrypted storage for sensitive data
 
+## 📸 Screenshots
+
+<div align="center">
+  <h3>Key App Screens</h3>
+  
+  <table>
+    <tr>
+    <td align="center">
+        <img src="screenshots/login_screen.jpg" alt="Login Screen" width="250"/>
+        <br />
+        <b>Login Screen</b>
+      </td>
+      <td align="center">
+        <img src="screenshots/home_screen.jpg" alt="Home Screen" width="250"/>
+        <br />
+        <b>Home Screen</b>
+      </td>
+      <td align="center">
+        <img src="screenshots/food_detail.jpg" alt="Food Detail Screen" width="250"/>
+        <br />
+        <b>Search & Discovery</b>
+      </td>
+      <td align="center">
+        <img src="screenshots/cart_screen.jpg" alt="Cart Screen" width="250"/>
+        <br />
+        <b>Shopping Cart</b>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="screenshots/orders_screen.jpeg" alt="Order Tracking" width="250"/>
+        <br />
+        <b>Order Tracking</b>
+      </td>
+      <td align="center">
+        <img src="screenshots/seller_dashboard.jpeg" alt="Seller Dashboard" width="250"/>
+        <br />
+        <b>Seller Dashboard</b>
+      </td>
+      <td align="center">
+        <img src="screenshots/profile_screen.jpg" alt="Profile Screen" width="250"/>
+        <br />
+        <b>User Profile</b>
+      </td>
+    </tr>
+  </table>
+</div>
+
+> **Note:** Create a `screenshots/` folder in your project root and add your app screenshots there. Replace the placeholder filenames above with your actual screenshot names.
+
 ## 📱 Screens
 
 The application includes **50+ screens** covering:
@@ -239,8 +289,8 @@ The application includes **50+ screens** covering:
 
 2. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd "Vital Foods"
+   git clone https://github.com/humzamajeed/Mobile-Computing-Project-Vital-Foods-Application.git
+   cd Mobile-Computing-Project-Vital-Foods-Application
    ```
 
 3. **Install dependencies**
