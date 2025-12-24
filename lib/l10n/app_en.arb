@@ -1,0 +1,1591 @@
+{
+  "@@locale": "en",
+  "appTitle": "Food Delivery App",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "welcome": "Welcome",
+  "@welcome": {
+    "description": "Welcome message"
+  },
+  "hello": "Hello",
+  "@hello": {
+    "description": "Greeting message"
+  },
+  "login": "Login",
+  "@login": {
+    "description": "Login button text"
+  },
+  "signUp": "Sign Up",
+  "@signUp": {
+    "description": "Sign up button text"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "Email label"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Password label"
+  },
+  "forgotPassword": "Forgot Password?",
+  "@forgotPassword": {
+    "description": "Forgot password link"
+  },
+  "home": "Home",
+  "@home": {
+    "description": "Home screen title"
+  },
+  "cart": "Cart",
+  "@cart": {
+    "description": "Shopping cart"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "User profile"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings screen"
+  },
+  "orders": "Orders",
+  "@orders": {
+    "description": "Orders screen"
+  },
+  "favorites": "Favorites",
+  "@favorites": {
+    "description": "Favorites screen"
+  },
+  "search": "Search",
+  "@search": {
+    "description": "Search placeholder"
+  },
+  "addToCart": "Add to Cart",
+  "@addToCart": {
+    "description": "Add to cart button"
+  },
+  "checkout": "Checkout",
+  "@checkout": {
+    "description": "Checkout button"
+  },
+  "total": "Total",
+  "@total": {
+    "description": "Total amount label"
+  },
+  "deliveryAddress": "Delivery Address",
+  "@deliveryAddress": {
+    "description": "Delivery address label"
+  },
+  "payment": "Payment",
+  "@payment": {
+    "description": "Payment screen"
+  },
+  "orderTracking": "Order Tracking",
+  "@orderTracking": {
+    "description": "Order tracking screen"
+  },
+  "reviews": "Reviews",
+  "@reviews": {
+    "description": "Reviews screen"
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications screen"
+  },
+  "address": "Address",
+  "@address": {
+    "description": "Address management"
+  },
+  "offers": "Offers",
+  "@offers": {
+    "description": "Offers and promotions"
+  },
+  "support": "Support",
+  "@support": {
+    "description": "Customer support"
+  },
+  "changeLanguage": "Change Language",
+  "@changeLanguage": {
+    "description": "Change language button"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language setting"
+  },
+  "english": "English",
+  "@english": {
+    "description": "English language"
+  },
+  "french": "French",
+  "@french": {
+    "description": "French language"
+  },
+  "arabic": "Arabic",
+  "@arabic": {
+    "description": "Arabic language"
+  },
+  "selectLanguage": "Select Language",
+  "@selectLanguage": {
+    "description": "Select language dialog title"
+  },
+  "signOut": "Sign Out",
+  "@signOut": {
+    "description": "Sign out button"
+  },
+  "editProfile": "Edit Profile",
+  "@editProfile": {
+    "description": "Edit profile button"
+  },
+  "personalInfo": "Personal Information",
+  "@personalInfo": {
+    "description": "Personal information section"
+  },
+  "changePassword": "Change Password",
+  "@changePassword": {
+    "description": "Change password button"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Name label"
+  },
+  "phoneNumber": "Phone Number",
+  "@phoneNumber": {
+    "description": "Phone number label"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button"
+  },
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit button"
+  },
+  "add": "Add",
+  "@add": {
+    "description": "Add button"
+  },
+  "remove": "Remove",
+  "@remove": {
+    "description": "Remove button"
+  },
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading indicator text"
+  },
+  "error": "Error",
+  "@error": {
+    "description": "Error message"
+  },
+  "success": "Success",
+  "@success": {
+    "description": "Success message"
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button"
+  },
+  "noItems": "No items found",
+  "@noItems": {
+    "description": "Empty state message"
+  },
+  "price": "Price",
+  "@price": {
+    "description": "Price label"
+  },
+  "quantity": "Quantity",
+  "@quantity": {
+    "description": "Quantity label"
+  },
+  "subtotal": "Subtotal",
+  "@subtotal": {
+    "description": "Subtotal label"
+  },
+  "deliveryFee": "Delivery Fee",
+  "@deliveryFee": {
+    "description": "Delivery fee label"
+  },
+  "confirmOrder": "Confirm Order",
+  "@confirmOrder": {
+    "description": "Confirm order button"
+  },
+  "orderPlaced": "Order Placed",
+  "@orderPlaced": {
+    "description": "Order placed message"
+  },
+  "orderStatus": "Order Status",
+  "@orderStatus": {
+    "description": "Order status label"
+  },
+  "pending": "Pending",
+  "@pending": {
+    "description": "Pending status"
+  },
+  "preparing": "Preparing",
+  "@preparing": {
+    "description": "Preparing status"
+  },
+  "onTheWay": "On the Way",
+  "@onTheWay": {
+    "description": "On the way status"
+  },
+  "delivered": "Delivered",
+  "@delivered": {
+    "description": "Delivered status"
+  },
+  "rating": "Rating",
+  "@rating": {
+    "description": "Rating label"
+  },
+  "writeReview": "Write a Review",
+  "@writeReview": {
+    "description": "Write review button"
+  },
+  "addAddress": "Add Address",
+  "@addAddress": {
+    "description": "Add address button"
+  },
+  "editAddress": "Edit Address",
+  "@editAddress": {
+    "description": "Edit address button"
+  },
+  "defaultAddress": "Default Address",
+  "@defaultAddress": {
+    "description": "Default address label"
+  },
+  "account": "Account",
+  "@account": {
+    "description": "Account section"
+  },
+  "general": "General",
+  "@general": {
+    "description": "General settings"
+  },
+  "about": "About",
+  "@about": {
+    "description": "About section"
+  },
+  "version": "Version",
+  "@version": {
+    "description": "App version"
+  },
+  "privacyPolicy": "Privacy Policy",
+  "@privacyPolicy": {
+    "description": "Privacy policy"
+  },
+  "termsOfService": "Terms of Service",
+  "@termsOfService": {
+    "description": "Terms of service"
+  },
+  "contactUs": "Contact Us",
+  "@contactUs": {
+    "description": "Contact us"
+  },
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout button"
+  },
+  "deleteAccount": "Delete Account",
+  "@deleteAccount": {
+    "description": "Delete account button"
+  },
+  "logIn": "Log In",
+  "@logIn": {
+    "description": "Login screen title"
+  },
+  "pleaseSignIn": "Please sign in to your existing account",
+  "@pleaseSignIn": {
+    "description": "Login screen subtitle"
+  },
+  "rememberMe": "Remember me",
+  "@rememberMe": {
+    "description": "Remember me checkbox"
+  },
+  "dontHaveAccount": "Don't have an account?",
+  "@dontHaveAccount": {
+    "description": "Sign up prompt"
+  },
+  "or": "Or",
+  "@or": {
+    "description": "Or divider text"
+  },
+  "deliverTo": "DELIVER TO",
+  "@deliverTo": {
+    "description": "Delivery location label"
+  },
+  "personalInfo": "Personal Info",
+  "@personalInfo": {
+    "description": "Personal information menu item"
+  },
+  "addresses": "Addresses",
+  "@addresses": {
+    "description": "Addresses menu item"
+  },
+  "myOrders": "My Orders",
+  "@myOrders": {
+    "description": "My orders menu item"
+  },
+  "favourite": "Favourite",
+  "@favourite": {
+    "description": "Favorites menu item"
+  },
+  "paymentMethod": "Payment Method",
+  "@paymentMethod": {
+    "description": "Payment method menu item"
+  },
+  "faqs": "FAQs",
+  "@faqs": {
+    "description": "FAQs menu item"
+  },
+  "userReviews": "User Reviews",
+  "@userReviews": {
+    "description": "User reviews menu item"
+  },
+  "preferences": "Preferences",
+  "@preferences": {
+    "description": "Preferences section"
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications setting"
+  },
+  "enablePushNotifications": "Enable push notifications",
+  "@enablePushNotifications": {
+    "description": "Notifications setting description"
+  },
+  "locationServices": "Location Services",
+  "@locationServices": {
+    "description": "Location services setting"
+  },
+  "allowLocationAccess": "Allow location access",
+  "@allowLocationAccess": {
+    "description": "Location services description"
+  },
+  "darkMode": "Dark Mode",
+  "@darkMode": {
+    "description": "Dark mode setting"
+  },
+  "switchToDarkTheme": "Switch to dark theme",
+  "@switchToDarkTheme": {
+    "description": "Dark mode description"
+  },
+  "legal": "Legal",
+  "@legal": {
+    "description": "Legal section"
+  },
+  "helpCenter": "Help Center",
+  "@helpCenter": {
+    "description": "Help center menu item"
+  },
+  "getHelpAndSupport": "Get help and support",
+  "@getHelpAndSupport": {
+    "description": "Help center description"
+  },
+  "sendFeedback": "Send Feedback",
+  "@sendFeedback": {
+    "description": "Send feedback menu item"
+  },
+  "shareYourThoughts": "Share your thoughts with us",
+  "@shareYourThoughts": {
+    "description": "Send feedback description"
+  },
+  "rateUs": "Rate Us",
+  "@rateUs": {
+    "description": "Rate us menu item"
+  },
+  "rateUsOnAppStore": "Rate us on the app store",
+  "@rateUsOnAppStore": {
+    "description": "Rate us description"
+  },
+  "readTermsAndConditions": "Read our terms and conditions",
+  "@readTermsAndConditions": {
+    "description": "Terms of service description"
+  },
+  "learnAboutPrivacy": "Learn about our privacy practices",
+  "@learnAboutPrivacy": {
+    "description": "Privacy policy description"
+  },
+  "updateYourPassword": "Update your password",
+  "@updateYourPassword": {
+    "description": "Change password description"
+  },
+  "managePaymentOptions": "Manage your payment options",
+  "@managePaymentOptions": {
+    "description": "Payment methods description"
+  },
+  "areYouSureLogout": "Are you sure you want to logout?",
+  "@areYouSureLogout": {
+    "description": "Logout confirmation message"
+  },
+  "trackOrder": "Track Order",
+  "@trackOrder": {
+    "description": "Track order screen title"
+  },
+  "cancelOrder": "Cancel Order",
+  "@cancelOrder": {
+    "description": "Cancel order button"
+  },
+  "cancelOrderQuestion": "Cancel Order?",
+  "@cancelOrderQuestion": {
+    "description": "Cancel order dialog title"
+  },
+  "noKeepOrder": "No, Keep Order",
+  "@noKeepOrder": {
+    "description": "Keep order button"
+  },
+  "yesCancel": "Yes, Cancel",
+  "@yesCancel": {
+    "description": "Confirm cancel button"
+  },
+  "noReviewsYet": "No reviews yet",
+  "@noReviewsYet": {
+    "description": "Empty reviews message"
+  },
+  "pleaseLoginToAddFavorites": "Please login to add favorites",
+  "@pleaseLoginToAddFavorites": {
+    "description": "Login required for favorites message"
+  },
+  "itemAddedToCart": "Item added to cart",
+  "@itemAddedToCart": {
+    "description": "Item added to cart success message"
+  },
+  "emptyCart": "Your cart is empty",
+  "@emptyCart": {
+    "description": "Empty cart message"
+  },
+  "startShopping": "Start Shopping",
+  "@startShopping": {
+    "description": "Start shopping button"
+  },
+  "areYouSureCancelOrder": "Are you sure you want to cancel this order?",
+  "@areYouSureCancelOrder": {
+    "description": "Cancel order confirmation message"
+  },
+  "cancelOrderCannotUndone": "Are you sure you want to cancel this order? This action cannot be undone.",
+  "@cancelOrderCannotUndone": {
+    "description": "Cancel order warning message"
+  },
+  "no": "No",
+  "@no": {
+    "description": "No button"
+  },
+  "yes": "Yes",
+  "@yes": {
+    "description": "Yes button"
+  },
+  "restaurants": "Restaurants",
+  "@restaurants": {
+    "description": "Restaurants tab"
+  },
+  "foodItems": "Food Items",
+  "@foodItems": {
+    "description": "Food items tab"
+  },
+  "pleaseSignUp": "Please sign up to get started",
+  "@pleaseSignUp": {
+    "description": "Sign up screen subtitle"
+  },
+  "confirmPassword": "Confirm Password",
+  "@confirmPassword": {
+    "description": "Confirm password label"
+  },
+  "pleaseEnterEmail": "Please enter your email",
+  "@pleaseEnterEmail": {
+    "description": "Email required message"
+  },
+  "passwordResetEmailSent": "Password reset email sent!",
+  "@passwordResetEmailSent": {
+    "description": "Password reset success message"
+  },
+  "verification": "Verification",
+  "@verification": {
+    "description": "Verification screen title"
+  },
+  "enterVerificationCode": "Enter the verification code sent to your email",
+  "@enterVerificationCode": {
+    "description": "Verification code instruction"
+  },
+  "verify": "Verify",
+  "@verify": {
+    "description": "Verify button"
+  },
+  "resendCode": "Resend Code",
+  "@resendCode": {
+    "description": "Resend code button"
+  },
+  "didntReceiveCode": "Didn't receive the code?",
+  "@didntReceiveCode": {
+    "description": "Resend code prompt"
+  },
+  "alreadyHaveAccount": "Already have an account?",
+  "@alreadyHaveAccount": {
+    "description": "Login prompt on signup"
+  },
+  "back": "Back",
+  "@back": {
+    "description": "Back button"
+  },
+  "next": "Next",
+  "@next": {
+    "description": "Next button"
+  },
+  "continueButton": "Continue",
+  "@continueButton": {
+    "description": "Continue button"
+  },
+  "skip": "Skip",
+  "@skip": {
+    "description": "Skip button"
+  },
+  "done": "Done",
+  "@done": {
+    "description": "Done button"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Close button"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm button"
+  },
+  "apply": "Apply",
+  "@apply": {
+    "description": "Apply button"
+  },
+  "clear": "Clear",
+  "@clear": {
+    "description": "Clear button"
+  },
+  "filter": "Filter",
+  "@filter": {
+    "description": "Filter button"
+  },
+  "sort": "Sort",
+  "@sort": {
+    "description": "Sort button"
+  },
+  "viewAll": "View All",
+  "@viewAll": {
+    "description": "View all button"
+  },
+  "seeMore": "See More",
+  "@seeMore": {
+    "description": "See more button"
+  },
+  "seeLess": "See Less",
+  "@seeLess": {
+    "description": "See less button"
+  },
+  "select": "Select",
+  "@select": {
+    "description": "Select button"
+  },
+  "choose": "Choose",
+  "@choose": {
+    "description": "Choose button"
+  },
+  "update": "Update",
+  "@update": {
+    "description": "Update button"
+  },
+  "submit": "Submit",
+  "@submit": {
+    "description": "Submit button"
+  },
+  "send": "Send",
+  "@send": {
+    "description": "Send button"
+  },
+  "proceed": "Proceed",
+  "@proceed": {
+    "description": "Proceed button"
+  },
+  "placeOrder": "Place Order",
+  "@placeOrder": {
+    "description": "Place order button"
+  },
+  "payNow": "Pay Now",
+  "@payNow": {
+    "description": "Pay now button"
+  },
+  "addCard": "Add Card",
+  "@addCard": {
+    "description": "Add card button"
+  },
+  "cardNumber": "Card Number",
+  "@cardNumber": {
+    "description": "Card number label"
+  },
+  "expiryDate": "Expiry Date",
+  "@expiryDate": {
+    "description": "Expiry date label"
+  },
+  "cvv": "CVV",
+  "@cvv": {
+    "description": "CVV label"
+  },
+  "cardholderName": "Cardholder Name",
+  "@cardholderName": {
+    "description": "Cardholder name label"
+  },
+  "paymentMethod": "Payment Method",
+  "@paymentMethod": {
+    "description": "Payment method label"
+  },
+  "processingPayment": "Processing Payment...",
+  "@processingPayment": {
+    "description": "Payment processing message"
+  },
+  "paymentSuccessful": "Payment Successful",
+  "@paymentSuccessful": {
+    "description": "Payment success message"
+  },
+  "paymentFailed": "Payment Failed",
+  "@paymentFailed": {
+    "description": "Payment failed message"
+  },
+  "orderConfirmed": "Order Confirmed",
+  "@orderConfirmed": {
+    "description": "Order confirmed message"
+  },
+  "thankYou": "Thank You!",
+  "@thankYou": {
+    "description": "Thank you message"
+  },
+  "yourOrderHasBeenPlaced": "Your order has been placed successfully",
+  "@yourOrderHasBeenPlaced": {
+    "description": "Order placed success message"
+  },
+  "streetAddress": "Street Address",
+  "@streetAddress": {
+    "description": "Street address label"
+  },
+  "city": "City",
+  "@city": {
+    "description": "City label"
+  },
+  "state": "State",
+  "@state": {
+    "description": "State label"
+  },
+  "zipCode": "Zip Code",
+  "@zipCode": {
+    "description": "Zip code label"
+  },
+  "country": "Country",
+  "@country": {
+    "description": "Country label"
+  },
+  "setAsDefault": "Set as Default",
+  "@setAsDefault": {
+    "description": "Set as default address checkbox"
+  },
+  "writeYourReview": "Write your review",
+  "@writeYourReview": {
+    "description": "Review text field placeholder"
+  },
+  "addTags": "Add Tags",
+  "@addTags": {
+    "description": "Add tags label"
+  },
+  "submitReview": "Submit Review",
+  "@submitReview": {
+    "description": "Submit review button"
+  },
+  "thankYouForReview": "Thank you for your review!",
+  "@thankYouForReview": {
+    "description": "Review submitted thank you message"
+  },
+  "noNotifications": "No notifications",
+  "@noNotifications": {
+    "description": "Empty notifications message"
+  },
+  "allowLocation": "Allow Location",
+  "@allowLocation": {
+    "description": "Allow location button"
+  },
+  "locationAccessRequired": "Location access is required for delivery",
+  "@locationAccessRequired": {
+    "description": "Location access required message"
+  },
+  "enableLocation": "Enable Location",
+  "@enableLocation": {
+    "description": "Enable location button"
+  },
+  "getStarted": "Get Started",
+  "@getStarted": {
+    "description": "Get started button"
+  },
+  "welcomeToApp": "Welcome to Food Delivery",
+  "@welcomeToApp": {
+    "description": "Welcome message"
+  },
+  "discoverDeliciousFood": "Discover delicious food from your favorite restaurants",
+  "@discoverDeliciousFood": {
+    "description": "Onboarding message"
+  },
+  "fastDelivery": "Fast Delivery",
+  "@fastDelivery": {
+    "description": "Fast delivery feature"
+  },
+  "easyOrdering": "Easy Ordering",
+  "@easyOrdering": {
+    "description": "Easy ordering feature"
+  },
+  "securePayment": "Secure Payment",
+  "@securePayment": {
+    "description": "Secure payment feature"
+  },
+  "pleaseAddCardFirst": "Please add a card first in order to proceed",
+  "@pleaseAddCardFirst": {
+    "description": "Add card required message"
+  },
+  "cash": "Cash",
+  "@cash": {
+    "description": "Cash payment method"
+  },
+  "paypal": "PayPal",
+  "@paypal": {
+    "description": "PayPal payment method"
+  },
+  "mastercard": "Mastercard",
+  "@mastercard": {
+    "description": "Mastercard payment method"
+  },
+  "visa": "Visa",
+  "@visa": {
+    "description": "Visa payment method"
+  },
+  "recentKeywords": "Recent Keywords",
+  "@recentKeywords": {
+    "description": "Recent keywords section title"
+  },
+  "suggestedRestaurants": "Suggested Restaurants",
+  "@suggestedRestaurants": {
+    "description": "Suggested restaurants section title"
+  },
+  "popularFastFood": "Popular Fast Food",
+  "@popularFastFood": {
+    "description": "Popular fast food section title"
+  },
+  "noAddressesSaved": "No addresses saved",
+  "@noAddressesSaved": {
+    "description": "Empty addresses message"
+  },
+  "home": "Home",
+  "@home": {
+    "description": "Home address label"
+  },
+  "office": "Office",
+  "@office": {
+    "description": "Office address label"
+  },
+  "defaultLabel": "Default",
+  "@defaultLabel": {
+    "description": "Default label"
+  },
+  "noCardAdded": "No card added",
+  "@noCardAdded": {
+    "description": "No card added message"
+  },
+  "youCanAddCardAndSave": "You can add a card and save it for later",
+  "@youCanAddCardAndSave": {
+    "description": "Add card instruction"
+  },
+  "payAndConfirm": "Pay & Confirm",
+  "@payAndConfirm": {
+    "description": "Pay and confirm button"
+  },
+  "searchForFood": "Search for food...",
+  "@searchForFood": {
+    "description": "Search placeholder"
+  },
+  "ingredients": "Ingredients",
+  "@ingredients": {
+    "description": "Ingredients label"
+  },
+  "size": "Size",
+  "@size": {
+    "description": "Size label"
+  },
+  "quantity": "Quantity",
+  "@quantity": {
+    "description": "Quantity label"
+  },
+  "addToFavorites": "Add to Favorites",
+  "@addToFavorites": {
+    "description": "Add to favorites button"
+  },
+  "removeFromFavorites": "Remove from Favorites",
+  "@removeFromFavorites": {
+    "description": "Remove from favorites button"
+  },
+  "description": "Description",
+  "@description": {
+    "description": "Description label"
+  },
+  "reviews": "Reviews",
+  "@reviews": {
+    "description": "Reviews label"
+  },
+  "rating": "Rating",
+  "@rating": {
+    "description": "Rating label"
+  },
+  "deliveryTime": "Delivery Time",
+  "@deliveryTime": {
+    "description": "Delivery time label"
+  },
+  "deliveryFee": "Delivery Fee",
+  "@deliveryFee": {
+    "description": "Delivery fee label"
+  },
+  "minimumOrder": "Minimum Order",
+  "@minimumOrder": {
+    "description": "Minimum order label"
+  },
+  "popular": "Popular",
+  "@popular": {
+    "description": "Popular label"
+  },
+  "recommended": "Recommended",
+  "@recommended": {
+    "description": "Recommended label"
+  },
+  "newLabel": "New",
+  "@newLabel": {
+    "description": "New label"
+  },
+  "specialOffers": "Special Offers",
+  "@specialOffers": {
+    "description": "Special offers label"
+  },
+  "allCategories": "All Categories",
+  "@allCategories": {
+    "description": "All categories label"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button"
+  },
+  "phoneNumber": "Phone Number",
+  "@phoneNumber": {
+    "description": "Phone number label"
+  },
+  "fullName": "Full Name",
+  "@fullName": {
+    "description": "Full name label"
+  },
+  "dateOfBirth": "Date of Birth",
+  "@dateOfBirth": {
+    "description": "Date of birth label"
+  },
+  "gender": "Gender",
+  "@gender": {
+    "description": "Gender label"
+  },
+  "male": "Male",
+  "@male": {
+    "description": "Male gender"
+  },
+  "female": "Female",
+  "@female": {
+    "description": "Female gender"
+  },
+  "other": "Other",
+  "@other": {
+    "description": "Other gender"
+  },
+  "addressLabel": "Address Label",
+  "@addressLabel": {
+    "description": "Address label field"
+  },
+  "saveAddress": "Save Address",
+  "@saveAddress": {
+    "description": "Save address button"
+  },
+  "editAddress": "Edit Address",
+  "@editAddress": {
+    "description": "Edit address button"
+  },
+  "writeReview": "Write a Review",
+  "@writeReview": {
+    "description": "Write review button"
+  },
+  "yourRating": "Your Rating",
+  "@yourRating": {
+    "description": "Your rating label"
+  },
+  "writeYourReviewHere": "Write your review here...",
+  "@writeYourReviewHere": {
+    "description": "Review text field placeholder"
+  },
+  "addPhotos": "Add Photos",
+  "@addPhotos": {
+    "description": "Add photos button"
+  },
+  "postReview": "Post Review",
+  "@postReview": {
+    "description": "Post review button"
+  },
+  "allReviews": "All Reviews",
+  "@allReviews": {
+    "description": "All reviews label"
+  },
+  "helpAndSupport": "Help & Support",
+  "@helpAndSupport": {
+    "description": "Help and support title"
+  },
+  "frequentlyAskedQuestions": "Frequently Asked Questions",
+  "@frequentlyAskedQuestions": {
+    "description": "FAQ title"
+  },
+  "contactSupport": "Contact Support",
+  "@contactSupport": {
+    "description": "Contact support button"
+  },
+  "sendMessage": "Send Message",
+  "@sendMessage": {
+    "description": "Send message button"
+  },
+  "yourMessage": "Your Message",
+  "@yourMessage": {
+    "description": "Message field label"
+  },
+  "subject": "Subject",
+  "@subject": {
+    "description": "Subject label"
+  },
+  "applyFilters": "Apply Filters",
+  "@applyFilters": {
+    "description": "Apply filters button"
+  },
+  "resetFilters": "Reset Filters",
+  "@resetFilters": {
+    "description": "Reset filters button"
+  },
+  "priceRange": "Price Range",
+  "@priceRange": {
+    "description": "Price range label"
+  },
+  "cuisine": "Cuisine",
+  "@cuisine": {
+    "description": "Cuisine label"
+  },
+  "distance": "Distance",
+  "@distance": {
+    "description": "Distance label"
+  },
+  "ratingFilter": "Rating",
+  "@ratingFilter": {
+    "description": "Rating filter label"
+  },
+  "locationPermissionRequired": "Location Permission Required",
+  "@locationPermissionRequired": {
+    "description": "Location permission title"
+  },
+  "weNeedYourLocation": "We need your location to show nearby restaurants",
+  "@weNeedYourLocation": {
+    "description": "Location permission message"
+  },
+  "grantPermission": "Grant Permission",
+  "@grantPermission": {
+    "description": "Grant permission button"
+  },
+  "skipForNow": "Skip for Now",
+  "@skipForNow": {
+    "description": "Skip button"
+  },
+  "welcome": "Welcome",
+  "@welcome": {
+    "description": "Welcome message"
+  },
+  "nextStep": "Next Step",
+  "@nextStep": {
+    "description": "Next step button"
+  },
+  "previous": "Previous",
+  "@previous": {
+    "description": "Previous button"
+  },
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading message"
+  },
+  "noItemsFound": "No items found",
+  "@noItemsFound": {
+    "description": "No items found message"
+  },
+  "tryAgain": "Try Again",
+  "@tryAgain": {
+    "description": "Try again button"
+  },
+  "somethingWentWrong": "Something went wrong",
+  "@somethingWentWrong": {
+    "description": "Error message"
+  },
+  "delicious": "Delicious",
+  "@delicious": {
+    "description": "Review tag for delicious food"
+  },
+  "hotFresh": "Hot & Fresh",
+  "@hotFresh": {
+    "description": "Review tag for hot and fresh food"
+  },
+  "goodPackaging": "Good Packaging",
+  "@goodPackaging": {
+    "description": "Review tag for good packaging"
+  },
+  "valueForMoney": "Value for Money",
+  "@valueForMoney": {
+    "description": "Review tag for value for money"
+  },
+  "friendlyRider": "Friendly Rider",
+  "@friendlyRider": {
+    "description": "Review tag for friendly rider"
+  },
+  "rateDeliveryPerson": "Rate Delivery Person",
+  "@rateDeliveryPerson": {
+    "description": "Title for rating delivery person section"
+  },
+  "markAll": "Mark all",
+  "@markAll": {
+    "description": "Button to mark all notifications as read"
+  },
+  "today": "Today",
+  "@today": {
+    "description": "Today label for notifications"
+  },
+  "yesterday": "Yesterday",
+  "@yesterday": {
+    "description": "Yesterday label for notifications"
+  },
+  "thisWeek": "This Week",
+  "@thisWeek": {
+    "description": "This week label for notifications"
+  },
+  "locationAccessMessage": "DFOOD WILL ACCESS YOUR LOCATION ONLY WHILE USING THE APP",
+  "@locationAccessMessage": {
+    "description": "Message about location access"
+  },
+  "allYourFavorites": "All your favorites",
+  "@allYourFavorites": {
+    "description": "Onboarding title for favorites page"
+  },
+  "allYourFavoritesDesc": "Get all your loved foods in one once place,\nyou just place the orer we do the rest",
+  "@allYourFavoritesDesc": {
+    "description": "Onboarding description for favorites page"
+  },
+  "orderFromChosenChef": "Order from chosen chef",
+  "@orderFromChosenChef": {
+    "description": "Onboarding title for chef page"
+  },
+  "orderFromChosenChefDesc": "Get your food delivered from hand-picked\nchefs near you",
+  "@orderFromChosenChefDesc": {
+    "description": "Onboarding description for chef page"
+  },
+  "freeDeliveryOffers": "Free delivery offers",
+  "@freeDeliveryOffers": {
+    "description": "Onboarding title for delivery page"
+  },
+  "freeDeliveryOffersDesc": "Get all your loved foods in one once place,\nyou just place the orer we do the rest",
+  "@freeDeliveryOffersDesc": {
+    "description": "Onboarding description for delivery page"
+  },
+  "getStarted": "GET STARTED",
+  "@getStarted": {
+    "description": "Get started button text"
+  },
+  "nextButton": "NEXT",
+  "@nextButton": {
+    "description": "Next button text"
+  },
+  "helloHowCanIHelp": "Hello! How can I help you today?",
+  "@helloHowCanIHelp": {
+    "description": "Support greeting message"
+  },
+  "online": "Online",
+  "@online": {
+    "description": "Online status label"
+  },
+  "orderIssue": "Order Issue",
+  "@orderIssue": {
+    "description": "Support category for order issues"
+  },
+  "paymentIssue": "Payment",
+  "@paymentIssue": {
+    "description": "Support category for payment issues"
+  },
+  "deliveryIssue": "Delivery",
+  "@deliveryIssue": {
+    "description": "Support category for delivery issues"
+  },
+  "accountIssue": "Account",
+  "@accountIssue": {
+    "description": "Support category for account issues"
+  },
+  "typeAMessage": "Type a message...",
+  "@typeAMessage": {
+    "description": "Placeholder for message input"
+  },
+  "sortBy": "Sort by",
+  "@sortBy": {
+    "description": "Sort by label"
+  },
+  "priceLowToHigh": "Price: Low to High",
+  "@priceLowToHigh": {
+    "description": "Price sort option low to high"
+  },
+  "priceHighToLow": "Price: High to Low",
+  "@priceHighToLow": {
+    "description": "Price sort option high to low"
+  },
+  "rating": "Rating",
+  "@rating": {
+    "description": "Rating sort option"
+  },
+  "popular": "Popular",
+  "@popular": {
+    "description": "Popular sort option"
+  },
+  "deliveryTime": "Delivery time",
+  "@deliveryTime": {
+    "description": "Delivery time filter label"
+  },
+  "specials": "Specials",
+  "@specials": {
+    "description": "Specials filter label"
+  },
+  "reset": "Reset",
+  "@reset": {
+    "description": "Reset button text"
+  },
+  "hurryOffers": "Hurry Offers!",
+  "@hurryOffers": {
+    "description": "Offers screen title"
+  },
+  "useCouponGetDiscount": "Use the coupon get 25% discount",
+  "@useCouponGetDiscount": {
+    "description": "Coupon discount message"
+  },
+  "gotIt": "GOT IT",
+  "@gotIt": {
+    "description": "Got it button text"
+  },
+  "free": "Free",
+  "@free": {
+    "description": "Free delivery label"
+  },
+  "minutes": "min",
+  "@minutes": {
+    "description": "Minutes abbreviation"
+  },
+  "burger": "Burger",
+  "@burger": {
+    "description": "Burger category"
+  },
+  "sandwich": "Sandwich",
+  "@sandwich": {
+    "description": "Sandwich category"
+  },
+  "pizza": "Pizza",
+  "@pizza": {
+    "description": "Pizza category"
+  },
+  "taco": "Taco",
+  "@taco": {
+    "description": "Taco category"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button text"
+  },
+  "myReviews": "My Reviews",
+  "@myReviews": {
+    "description": "My reviews screen title"
+  },
+  "helpAndSupport": "Help & Support",
+  "@helpAndSupport": {
+    "description": "Help and support title"
+  },
+  "freeDelivery": "Free Delivery",
+  "@freeDelivery": {
+    "description": "Free delivery option"
+  },
+  "orderNumber": "Order #{orderId}",
+  "@orderNumber": {
+    "description": "Order number label",
+    "placeholders": {
+      "orderId": {
+        "type": "String"
+      }
+    }
+  },
+  "onTheWay": "On the way",
+  "@onTheWay": {
+    "description": "Order status - on the way"
+  },
+  "estimatedDelivery": "Estimated delivery: {time}",
+  "@estimatedDelivery": {
+    "description": "Estimated delivery time",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "deliveryPerson": "Delivery Person",
+  "@deliveryPerson": {
+    "description": "Delivery person label"
+  },
+  "reviewsCount": "({count} reviews)",
+  "@reviewsCount": {
+    "description": "Reviews count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deliveries": "deliveries",
+  "@deliveries": {
+    "description": "Deliveries count label"
+  },
+  "connecting": "Connecting.......",
+  "@connecting": {
+    "description": "Call connecting status"
+  },
+  "writeSomething": "Write somethings",
+  "@writeSomething": {
+    "description": "Message input placeholder"
+  },
+  "areYouComing": "Are you coming?",
+  "@areYouComing": {
+    "description": "Chat message"
+  },
+  "congratulationsForOrder": "Hay, Congratulation for order",
+  "@congratulationsForOrder": {
+    "description": "Chat message"
+  },
+  "whereAreYouNow": "Hey Where are you now?",
+  "@whereAreYouNow": {
+    "description": "Chat message"
+  },
+  "imComingJustWait": "I'm Coming , just wait ...",
+  "@imComingJustWait": {
+    "description": "Chat message"
+  },
+  "hurryUpMan": "Hurry Up, Man",
+  "@hurryUpMan": {
+    "description": "Chat message"
+  },
+  "justNow": "Just now",
+  "@justNow": {
+    "description": "Time label for just sent message"
+  },
+  "goodAfternoon": "Good Afternoon!",
+  "@goodAfternoon": {
+    "description": "Greeting"
+  },
+  "heyName": "Hey {name},",
+  "@heyName": {
+    "description": "Greeting with name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "searchDishesRestaurants": "Search dishes, restaurants",
+  "@searchDishesRestaurants": {
+    "description": "Search bar placeholder"
+  },
+  "allCategories": "All Categories",
+  "@allCategories": {
+    "description": "All categories section title"
+  },
+  "seeAll": "See All",
+  "@seeAll": {
+    "description": "See all link"
+  },
+  "openRestaurants": "Open Restaurants",
+  "@openRestaurants": {
+    "description": "Open restaurants section title"
+  },
+  "size": "SIZE",
+  "@size": {
+    "description": "Size label"
+  },
+  "ingredients": "INGRIDENTS",
+  "@ingredients": {
+    "description": "Ingredients label"
+  },
+  "addresses": "Addresses",
+  "@addresses": {
+    "description": "Addresses screen title"
+  },
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit button/label"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button/label"
+  },
+  "location": "LOCATION",
+  "@location": {
+    "description": "Location label"
+  },
+  "dashboard": "Dashboard",
+  "@dashboard": {
+    "description": "Dashboard title"
+  },
+  "revenue": "Revenue",
+  "@revenue": {
+    "description": "Revenue label"
+  },
+  "popularItems": "Popular Items",
+  "@popularItems": {
+    "description": "Popular items label"
+  },
+  "runningOrders": "Running Orders",
+  "@runningOrders": {
+    "description": "Running orders label"
+  },
+  "myFoodList": "My Food List",
+  "@myFoodList": {
+    "description": "My food list label"
+  },
+  "addNewFood": "Add New Food",
+  "@addNewFood": {
+    "description": "Add new food label"
+  },
+  "sellerProfile": "Seller Profile",
+  "@sellerProfile": {
+    "description": "Seller profile label"
+  },
+  "sellerNotifications": "Notifications",
+  "@sellerNotifications": {
+    "description": "Seller notifications label"
+  },
+  "sellerReviews": "Reviews",
+  "@sellerReviews": {
+    "description": "Seller reviews label"
+  },
+  "popularItemsThisWeek": "Popular Items This Weeks",
+  "@popularItemsThisWeek": {
+    "description": "Popular items this week label"
+  },
+  "seeAllReviews": "See All Reviews",
+  "@seeAllReviews": {
+    "description": "See all reviews link"
+  },
+  "seeDetails": "See Details",
+  "@seeDetails": {
+    "description": "See details link"
+  },
+  "daily": "Daily",
+  "@daily": {
+    "description": "Daily time period"
+  },
+  "totalRevenue": "Total Revenue",
+  "@totalRevenue": {
+    "description": "Total revenue label"
+  },
+  "addNewItems": "Add New Items",
+  "@addNewItems": {
+    "description": "Add new items title"
+  },
+  "itemName": "Item Name",
+  "@itemName": {
+    "description": "Item name label"
+  },
+  "uploadPhotoVideo": "UPLOAD PHOTO/VIDEO",
+  "@uploadPhotoVideo": {
+    "description": "Upload photo/video label"
+  },
+  "priceLabel": "PRICE",
+  "@priceLabel": {
+    "description": "Price label"
+  },
+  "details": "Details",
+  "@details": {
+    "description": "Details label"
+  },
+  "pickup": "Pickup",
+  "@pickup": {
+    "description": "Pickup option"
+  },
+  "delivery": "Delivery",
+  "@delivery": {
+    "description": "Delivery option"
+  },
+  "totalItems": "Total {count} Items",
+  "@totalItems": {
+    "description": "Total items count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "all": "All",
+  "@all": {
+    "description": "All category"
+  },
+  "breakfast": "Breakfast",
+  "@breakfast": {
+    "description": "Breakfast category"
+  },
+  "lunch": "Lunch",
+  "@lunch": {
+    "description": "Lunch category"
+  },
+  "dinner": "Dinner",
+  "@dinner": {
+    "description": "Dinner category"
+  },
+  "runningOrdersCount": "{count} Running Orders",
+  "@runningOrdersCount": {
+    "description": "Running orders count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "personalInfo": "Personal Info",
+  "@personalInfo": {
+    "description": "Personal info menu item"
+  },
+  "withdrawalHistory": "Withdrawal History",
+  "@withdrawalHistory": {
+    "description": "Withdrawal history menu item"
+  },
+  "numberOfOrders": "Number of Orders",
+  "@numberOfOrders": {
+    "description": "Number of orders menu item"
+  },
+  "userReviews": "User Reviews",
+  "@userReviews": {
+    "description": "User reviews menu item"
+  },
+  "logOut": "Log Out",
+  "@logOut": {
+    "description": "Log out menu item"
+  },
+  "messages": "Messages",
+  "@messages": {
+    "description": "Messages tab"
+  },
+  "messagesCount": "Messages ({count})",
+  "@messagesCount": {
+    "description": "Messages with count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "placedNewOrder": "Placed a new order",
+  "@placedNewOrder": {
+    "description": "Notification action"
+  },
+  "foodDetails": "Food Details",
+  "@foodDetails": {
+    "description": "Food details title"
+  },
+  "withdrawSuccessful": "Withdraw Successful",
+  "@withdrawSuccessful": {
+    "description": "Withdraw success message"
+  },
+  "starting": "Starting",
+  "@starting": {
+    "description": "Starting price label"
+  },
+  "cuisineTypes": "Burger - Chicken - Rich - Wings",
+  "@cuisineTypes": {
+    "description": "Cuisine types display"
+  },
+  "popularCategory": "Popular {category}",
+  "@popularCategory": {
+    "description": "Popular category title",
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "openRestaurants": "Open Restaurants",
+  "@openRestaurants": {
+    "description": "Open restaurants section title"
+  },
+  "pleaseLoginToSubmitReview": "Please login to submit a review",
+  "@pleaseLoginToSubmitReview": {
+    "description": "Login required message for reviews"
+  },
+  "noChefsAvailable": "No chefs available. Please try again later.",
+  "@noChefsAvailable": {
+    "description": "No chefs available error message"
+  },
+  "unableToFindChef": "Unable to find chef. Please try again later.",
+  "@unableToFindChef": {
+    "description": "Unable to find chef error message"
+  },
+  "errorSubmittingReview": "Error submitting review: {error}",
+  "@errorSubmittingReview": {
+    "description": "Error submitting review message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "reviewsWillAppearHere": "Your submitted reviews will appear here",
+  "@reviewsWillAppearHere": {
+    "description": "Empty reviews state message"
+  },
+  "errorPickingImage": "Error picking image: {error}",
+  "@errorPickingImage": {
+    "description": "Error picking image message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "imageUploadedSuccessfully": "Image uploaded successfully",
+  "@imageUploadedSuccessfully": {
+    "description": "Image upload success message"
+  },
+  "errorUploadingImage": "Error uploading image: {error}",
+  "@errorUploadingImage": {
+    "description": "Error uploading image message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToSubmitReview": "Failed to submit review. Please try again.",
+  "@failedToSubmitReview": {
+    "description": "Failed to submit review error message"
+  },
+  "reviewsFromCustomersWillAppearHere": "Reviews from customers will appear here",
+  "@reviewsFromCustomersWillAppearHere": {
+    "description": "Empty reviews state message for sellers"
+  },
+  "older": "Older",
+  "@older": {
+    "description": "Older label for notifications"
+  }
+}
+

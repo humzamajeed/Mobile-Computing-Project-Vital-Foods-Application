@@ -1,0 +1,122 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper function to get user role
+    function getUserRole() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role;
+    }
+    
+    function isChef() {
+      return request.auth != null && getUserRole() == 'chef';
+    }
+    
+    function isUser() {
+      return request.auth != null && getUserRole() == 'user';
+    }
+    
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Users collection - Profile data is stored here
+    // Users can read/update their own profile, but cannot delete it
+    match /users/{userId} {
+      // Users can read their own profile
+      allow read: if request.auth != null && isOwner(userId);
+      
+      // Users can create their own profile document (during signup)
+      allow create: if request.auth != null 
+        && request.auth.uid == userId
+        && request.resource.data.id == userId;
+      
+      // Users can update their own profile (name, phoneNumber, photoUrl, etc.)
+      allow update: if request.auth != null 
+        && isOwner(userId)
+        // Ensure userId cannot be changed
+        && request.resource.data.id == resource.data.id
+        && request.resource.data.id == userId;
+      
+      // Users CANNOT delete their own profile (for data integrity)
+      allow delete: if false;
+      
+      // Settings subcollection
+      match /settings/{settingsId} {
+        allow read, write: if request.auth != null && isOwner(userId);
+      }
+    }
+    
+    // Carts - Users can read/write their own cart
+    match /carts/{userId} {
+      allow read, write: if request.auth != null && isOwner(userId);
+    }
+    
+    // Favorites - Users can read/write their own favorites
+    match /favorites/{favoriteId} {
+      allow read: if request.auth != null 
+        && resource.data.userId == request.auth.uid;
+      allow create: if request.auth != null 
+        && request.resource.data.userId == request.auth.uid;
+      allow update: if request.auth != null 
+        && resource.data.userId == request.auth.uid
+        && request.resource.data.userId == request.auth.uid;
+      allow delete: if request.auth != null 
+        && resource.data.userId == request.auth.uid;
+    }
+    
+    // Seller/Chef collections - Only chefs can access
+    match /seller/{sellerId} {
+      allow read, write: if isChef() && isOwner(sellerId);
+    }
+    
+    match /seller/{sellerId}/{document=**} {
+      allow read, write: if isChef() && isOwner(sellerId);
+    }
+    
+    // Seller food items
+    match /seller_food/{foodId} {
+      allow read: if request.auth != null; // Anyone can read food items
+      allow write: if isChef(); // Only chefs can write
+    }
+    
+    // Seller orders
+    match /seller_orders/{orderId} {
+      allow read, write: if isChef();
+    }
+    
+    // Reviews - Users can create reviews, anyone can read
+    match /reviews/{reviewId} {
+      allow read: if request.auth != null; // Anyone authenticated can read reviews
+      allow create: if request.auth != null 
+        && request.resource.data.userId == request.auth.uid;
+      allow update: if request.auth != null 
+        && resource.data.userId == request.auth.uid
+        && request.resource.data.userId == request.auth.uid;
+      allow delete: if request.auth != null 
+        && resource.data.userId == request.auth.uid;
+    }
+    
+    // Seller reviews (legacy - keeping for backward compatibility)
+    match /seller_reviews/{reviewId} {
+      allow read: if request.auth != null; // Anyone can read reviews
+      allow write: if isUser() || isChef(); // Users can write reviews, chefs can respond
+    }
+    
+    // Orders - Users can read/write their own orders
+    match /orders/{orderId} {
+      allow read: if request.auth != null 
+        && resource.data.userId == request.auth.uid;
+      allow create: if request.auth != null 
+        && request.resource.data.userId == request.auth.uid;
+      allow update: if request.auth != null 
+        && resource.data.userId == request.auth.uid
+        && request.resource.data.userId == request.auth.uid;
+      allow delete: if request.auth != null 
+        && resource.data.userId == request.auth.uid; // Users can delete their own orders
+    }
+    
+    // Deny all other access
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
