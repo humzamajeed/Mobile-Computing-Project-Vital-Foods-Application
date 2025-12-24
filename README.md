@@ -250,7 +250,7 @@ This project implements **Clean Architecture** with the following key principles
         <b>Order Tracking</b>
       </td>
       <td align="center">
-        <img src="screenshots/favorites_screen.png" alt="Facorites Screen" width="250"/>
+        <img src="screenshots/favorites_screen.jpeg" alt="Favorites Screen" width="250"/>
         <br />
         <b>Favorites Screen</b>
       </td>
